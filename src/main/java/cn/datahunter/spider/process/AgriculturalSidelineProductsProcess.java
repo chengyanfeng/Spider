@@ -28,6 +28,7 @@ import java.util.Map;
 public class AgriculturalSidelineProductsProcess implements PageProcessor {
 
     private Site site =
+
             Site.me()
                 .setCharset("utf-8")
                 .setSleepTime(3000)
